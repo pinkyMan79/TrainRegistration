@@ -7,7 +7,7 @@ import org.terenin.repositries.CRUDRepoForClientsImpl;
 import javax.sql.DataSource;
 
 public class ClientServiceImpl implements ClientService {
-    
+
     private CRUDRepoForClientsImpl clientRepo;
 
     public ClientServiceImpl(CRUDRepoForClientsImpl clientRepo){
