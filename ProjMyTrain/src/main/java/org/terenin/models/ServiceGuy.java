@@ -5,6 +5,10 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.Random;
+
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,5 +22,6 @@ public class ServiceGuy {
     private String password;
     private String typeOfWorking;
     private String accessToken;
+
 
 }
